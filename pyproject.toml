@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "herblib"
+version = "1.0.0"
+description = "Hierarchical Energy-Based Reasoning Network — a physics-native, RBM-rooted, bidirectional neural network"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Mohana Krishna"}]
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+torch = ["torch>=2.0"]
+dev = ["pytest>=7.0", "scipy>=1.9", "matplotlib>=3.5"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
