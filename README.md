@@ -345,7 +345,3 @@ All 30 tests pass, including finite-difference gradient verification for all 4 l
 - **Multi-network composition** — couple HERB instances via shared layers
 
 ---
-
-## License
-
-MIT
