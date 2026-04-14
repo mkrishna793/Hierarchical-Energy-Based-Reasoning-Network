@@ -2,8 +2,6 @@
 
 **Hierarchical Energy-Based Reasoning Network** — A physics-native, RBM-rooted, bidirectional neural network with no backpropagation through time.
 
-Designed & Conceived by **Mohana Krishna**
-
 ---
 
 ## What is HERB?
